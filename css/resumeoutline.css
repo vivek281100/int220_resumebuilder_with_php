@@ -1,0 +1,188 @@
+body{
+    margin: 2px;
+    padding: 2px;
+    background-color: rgb(248, 255, 255);
+}
+.resumeoutline p::after{
+    content: '.:';
+    color:aliceblue;
+
+}
+.ful{
+    position: absolute;
+    top:40px;
+    left:5%;
+    width: 36%;
+    height: 90%;
+    border-style: solid;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 0px 0px 5px rgb(255, 255, 255);
+    transition:3s;
+}
+.ful:hover{
+    box-shadow: 0px 15px 200px rgb(0, 255, 191);
+    zoom: 115%;
+}
+
+.ful h3{
+    color: orangered;
+
+}
+.top{
+    background-color:rgb(176, 188, 204);
+    width: 100%;
+    height:20%;
+    position: relative;
+    display: flex;
+}
+.img{
+    width: 28%;
+    margin: 1%;
+    margin-left: 2%;
+    height: 90%;
+}
+.imag{
+    padding: 1%;
+    padding-left:8%;
+    padding-right: 8%;
+    width: 80%;
+    height: 97%;
+    overflow: hidden;
+}
+.name{
+    width: 58%;
+    margin: 2%;
+}
+.righth{
+    
+    width: 100%;
+    height:55%;
+}
+.rightp{
+    width: 100%;
+    height:40%;
+    position: relative;
+    top:-10px;
+}
+.resumeoutline{
+    background-color:rgb(0, 0, 0,0.75);
+    width: 31%;
+    height: 80%;
+    float: left;
+    color: white;
+}
+.right{
+    background-color:white;
+    width: 69%;
+    height: 80%;
+    float: right;
+    
+}
+.righth{
+    
+    width: 100%;
+    height:55%;
+}
+.rightp{
+    width: 100%;
+    height:40%;
+}
+
+.summary{
+    background-color: white;
+    margin-left: 1%;
+    margin-bottom: 0px;
+    width: 98%;
+    height:max-content;
+    font-size:x-small;
+}
+.educa{
+    background-color: white;
+    margin-left: 1%;
+    margin-bottom: 0px;
+    width: 98%;
+    height:fit-content;
+    font-size:small;
+}
+.project{
+    background-color: white;
+    margin-left: 1%;
+    margin-bottom: 0px;
+    width: 98%;
+    height:fit-content;
+    font-size:x-small;
+}
+.expe{
+    background-color: white;
+    margin-left: 1%;
+    margin-top: 0px;
+    width: 98%;
+    height: fit-content;
+    font-size:x-small;
+}
+.userdetail{
+    text-align:right;
+    font-size: 70%;
+    padding-right: 3%;
+}
+.skill{
+    padding-right: 3%;
+    text-align:right;
+    font-size: 70%;
+}
+
+/*---------------------------------------------------------------------------------------------*/
+nav{
+    width: 100%;
+    height: 50px;
+    position:absolute;
+}
+nav a{
+    margin-left: 2%;
+    font-size: xx-large;
+}
+nav a:last-child{
+    float:right;
+    margin-right: 3%;
+}
+nav a{
+    text-decoration: none;
+    height: inherit;
+    width: 30px;
+}
+nav button{
+    background-color: inherit;
+    border-style: none;
+    height:inherit;
+    border-radius: 25%;
+    width: 70px;
+    transition: 2s;
+    transform: scale(1px);
+    box-shadow: 0px 0px 1px rgb(122, 121, 121);
+    transform-origin: left;
+}
+nav button:hover{
+    background-color: teal;
+    height: inherit;
+    border-radius: 0px;
+    border-bottom-style: groove;
+    border-bottom-color: tomato;
+}
+.active{
+    height: 50px;
+    background-color: teal;
+
+}
+.active a{
+    color:whitesmoke;
+    height: inherit;
+    width: 30px;
+}
+.active button{
+    color:whitesmoke;
+    height:inherit;
+    width: 70px;
+    border-radius: 10px;
+}

@@ -1,0 +1,131 @@
+body{
+    width:100%;
+    height:100%;
+}
+.resumeoutline p::after{
+    content: '.:';
+    color:aliceblue;
+
+}
+.ful{
+    width: 96%;
+    margin-left:2%;
+    height: 98%;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display:none;
+}
+.ful h3{
+    color: orangered;
+
+}
+.top{
+    background-color:lightslategrey;
+    width: 810px;
+    height:260px;
+    position: relative;
+    top:-6px;
+    left:-10px;
+    display: flex;
+}
+.img{
+    width: 28%;
+    margin: 1%;
+    margin-left: 2%;
+    height: 90%;
+}
+.imag{
+    padding: 1%;
+    padding-left:8%;
+    padding-right: 8%;
+    width: 80%;
+    height: 97%;
+    overflow: hidden;
+}
+.name{
+    width: 58%;
+    margin: 2%;
+}
+.righth{
+    
+    width: 100%;
+    font-size: larger;
+    height:55%;
+}
+.rightp{
+    width: 100%;
+    height:40%;
+    position: relative;
+    top:-15px;
+}
+.resumeoutline{
+    background-color:rgb(0, 0, 0);
+    width: 230px;
+    height: 879px;
+    float: left;
+    color: white;
+    position:relative;
+    top:-6px;
+    left:-10px;
+}
+.right{
+    background-color:white;
+    width: 535px;
+    height: 880px;
+    float: right;
+    
+}
+.righth{
+    width: 100%;
+    height:55%;
+}
+.rightp{
+    width: 100%;
+    height:40%;
+}
+
+.summary{
+    background-color: white;
+    margin-left: 1%;
+    margin-bottom: 0px;
+    width: 98%;
+    height:max-content;
+    font-size:medium;
+}
+.educa{
+    background-color: white;
+    margin-left: 1%;
+    margin-bottom: 0px;
+    width: 98%;
+    height:fit-content;
+    font-size:medium;
+}
+.project{
+    background-color: white;
+    margin-left: 1%;
+    margin-bottom: 0px;
+    width: 98%;
+    height:fit-content;
+    font-size:medium;
+}
+.expe{
+    background-color: white;
+    margin-left: 1%;
+    margin-top: 0px;
+    width: 98%;
+    height: fit-content;
+    font-size:medium;
+}
+.userdetail{
+    text-align:right;
+    font-size: 80%;
+    padding-right: 3%;
+}
+.skill{
+    padding-right: 3%;
+    text-align:right;
+    font-size: 80%;
+}
